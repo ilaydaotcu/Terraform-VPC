@@ -1,0 +1,25 @@
+# Terraform-specific
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+terraform.tfvars.json
+terraform.tfstate.backup
+
+# Provider plugins
+.terraform.lock.hcl
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# VSCode or IDE stuff
+.vscode/
+.idea/
+.DS_Store
+
+# OS/Terminal trash
+Thumbs.db.terraform/
